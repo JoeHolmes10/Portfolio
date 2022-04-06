@@ -1,0 +1,153 @@
+/* Dont Forget the Comments */
+
+:root {
+    --mainColor: black;
+    --secondaryColor: #111111;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--mainColor);
+}
+/* start Header  */
+.img {
+    width: 50px;
+}
+.header {
+    background-color: var(--secondaryColor);
+    color: white;
+}
+.navbar-toggler {
+    color: white;
+    outline: 1px solid white;
+}
+.light_mode {
+    cursor: pointer;
+}
+.header ul a {
+    color: white;
+}
+.header ul a:hover {
+    background: #9845e8;
+    background: -webkit-linear-gradient(to right, #9845e8 14%, #33d2ff 35%);
+    background: -moz-linear-gradient(to right, #9845e8 14%, #33d2ff 35%);
+    background: linear-gradient(to right, #9845e8 30%, #33d2ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header ul a:focus {
+    background: #9845e8;
+    background: -webkit-linear-gradient(to right, #9845e8 14%, #33d2ff 35%);
+    background: -moz-linear-gradient(to right, #9845e8 14%, #33d2ff 35%);
+    background: linear-gradient(to right, #9845e8 30%, #33d2ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* end Header  */
+/* start Joe */
+.joe h1 {
+    font-weight: 500;
+    font-size: 90px;
+    background: linear-gradient(
+        89.81deg,
+        #9845e8 -1.72%,
+        #33d2ff 54.05%,
+        #dd5789 99.78%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+} 
+/* end Joe */
+/* start contact  */
+.contact .fa-envelope {
+    color: white;
+}
+.contact a {
+    text-decoration: none;
+}
+.contact .github {
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-image: linear-gradient(to right top, #D24074, #6518B4);
+    border-image-slice: 1;
+    width: 180px;
+}
+.contact .facebook {
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-image: linear-gradient(to right top, #1877f2, #6964DE);
+    border-image-slice: 1;
+    width: 180px;
+}
+.contact .linkedin {
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-image: linear-gradient(to right top, #FCA6E9, #6964DE);
+    border-image-slice: 1;
+    width: 180px;
+}
+.contact .email {
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-image: linear-gradient(to right top, #9358F7, #10D7E2);
+    border-image-slice: 1;
+    width: 180px;
+}
+/* end contact  */
+/* start langs  */
+.langs h1 {
+    background: linear-gradient(
+        89.81deg,
+        #dd5789 50.78%,
+        #33d2ff 60.05%,
+        #9845e8 52.72%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.tools h1 {
+    background: linear-gradient(
+        89.81deg,
+        #9845e8 40.72%,
+        #33d2ff 54.05%,
+        #dd5789 60.78%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* end langs  */
+/* start projects  */
+.projects h1 {
+    background: linear-gradient(
+        89.81deg,
+        #9845e8 40.72%,
+        #33d2ff 54.05%,
+        #dd5789 60.78%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* end projects  */
