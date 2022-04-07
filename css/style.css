@@ -57,7 +57,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-} 
+}
 /* end Joe */
 /* start contact  */
 .contact .fa-envelope {
@@ -73,7 +73,7 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border-image: linear-gradient(to right top, #D24074, #6518B4);
+    border-image: linear-gradient(to right top, #d24074, #6518b4);
     border-image-slice: 1;
     width: 180px;
 }
@@ -84,7 +84,7 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border-image: linear-gradient(to right top, #1877f2, #6964DE);
+    border-image: linear-gradient(to right top, #1877f2, #6964de);
     border-image-slice: 1;
     width: 180px;
 }
@@ -95,7 +95,7 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border-image: linear-gradient(to right top, #FCA6E9, #6964DE);
+    border-image: linear-gradient(to right top, #fca6e9, #6964de);
     border-image-slice: 1;
     width: 180px;
 }
@@ -106,7 +106,7 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border-image: linear-gradient(to right top, #9358F7, #10D7E2);
+    border-image: linear-gradient(to right top, #9358f7, #10d7e2);
     border-image-slice: 1;
     width: 180px;
 }
@@ -150,4 +150,13 @@ body {
     background-clip: text;
     text-fill-color: transparent;
 }
+.projects .box, .box1, .box2 , .box3 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
 /* end projects  */
